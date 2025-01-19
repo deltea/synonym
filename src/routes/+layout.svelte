@@ -1,6 +1,8 @@
 <script lang="ts">
-	import '../app.css';
+	import "../app.css";
 	let { children } = $props();
 </script>
 
-{@render children()}
+<div class="h-screen font-cascadia selection:bg-fg selection:text-bg">
+  {@render children()}
+</div>

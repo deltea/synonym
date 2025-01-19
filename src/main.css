@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Cascadia Code";
+  src: url("/fonts/CascadiaCode.ttf");
+}
+
+body {
+  background-color: #282828;
+  color: #EBDBB2;
+}
